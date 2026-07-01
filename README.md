@@ -27,8 +27,9 @@
 Чанковый мир: симулируются только живые чанки, жизнь сама расползается в соседние. Симуляция и рендер в отдельных потоках, собственный тред-пул, CUDA-бэкенд с shared-memory тайлингом (до 109× к CPU). Правило автомата — таблица подстановки: один код работает и на CPU, и на GPU без переписывания. Загружает `.rle`-паттерны, пишет GIF, ImGui-интерфейс, CI на GitHub Actions.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wonfeel/Tessera/main/assets/gun_eater.gif" width="45%" alt="Gosper gun" />
-  <img src="https://raw.githubusercontent.com/wonfeel/Tessera/main/assets/random_field.gif" width="45%" alt="Random field spreading across chunks" />
+  <img src="https://raw.githubusercontent.com/wonfeel/Tessera/main/assets/gun_eater.gif" height="220" alt="Gosper gun" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/wonfeel/Tessera/main/assets/random_field.gif" height="220" alt="Random field spreading across chunks" />
 </p>
 
 *Дальше в планах — отдельный физический бэкенд за тем же интерфейсом: волновое уравнение (FDTD) и векторные поля.*
