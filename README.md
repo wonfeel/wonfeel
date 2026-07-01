@@ -10,6 +10,9 @@
 
 Сейчас развиваю движок симуляций: заменяемые CPU/CUDA-бэкенды, разделение симуляции и рендера по потокам, оптимизация вычислительного ядра под память GPU.
 
+**Ищу первую работу — junior C++** (системы, графика, вычисления).
+Открыт к Qt / CAD / embedded / gamedev.
+
 ---
 
 ### Чем занимаюсь
@@ -36,13 +39,13 @@
 
 ---
 
-### Стек
+### Навыки
 
 | | |
 |---|---|
-| **Языки** | C++17 (основной) · Python · CUDA C++ |
-| **Графика / GPU** | OpenGL · GLSL · CUDA · GLFW · GLAD · GLM · Dear ImGui |
-| **Инструменты** | CMake · Ninja · Git · GitHub Actions · MSVC |
+| **Уверенно** | C++17 · многопоточность · OpenGL · CMake · Git |
+| **Базово** | CUDA · GLSL · Python · Linux |
+| **Инструменты** | Dear ImGui · GLFW · GLAD · GLM · Ninja · GitHub Actions · MSVC |
 
 ---
 
