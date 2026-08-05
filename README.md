@@ -37,6 +37,15 @@
 
 *Дальше в планах — отдельный физический бэкенд за тем же интерфейсом: волновое уравнение (FDTD) и векторные поля.*
 
+**[Wormy](https://github.com/wonfeel/Wormy-c302)** — симуляция тела и нервной системы C. elegans на движке Tessera
+Настоящий коннектом из 401 нейрона ([Cook et al. 2019](https://doi.org/10.1038/s41586-019-1352-7)) через разреженный неспайковый интегратор сети управляет физическим телом: активность сети → кривизна мышц → сегментированное тело → resistive-force-theory физика на анизотропном субстрате → положение и ориентация. Никакой скриптованной локомоции — движение целиком следствие нейронной активности.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wonfeel/Wormy-c302/main/assets/demo.gif" height="220" alt="C. elegans worm swimming, driven by real connectome" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/wonfeel/Wormy-c302/main/assets/screenshot.png" height="220" alt="Worm simulation screenshot" />
+</p>
+
 ---
 
 ### Навыки
