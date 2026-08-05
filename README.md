@@ -26,14 +26,20 @@
 
 ### Проекты
 
-**[Tessera](https://github.com/wonfeel/Tessera)** — 2D движок клеточных автоматов на C++/CUDA/OpenGL
-Чанковый мир: симулируются только живые чанки, жизнь сама расползается в соседние. Симуляция и рендер в отдельных потоках, собственный тред-пул, CUDA-бэкенд с shared-memory тайлингом (до 109× к CPU). Правило автомата — таблица подстановки: один код работает и на CPU, и на GPU без переписывания. Загружает `.rle`-паттерны, пишет GIF, ImGui-интерфейс, CI на GitHub Actions.
+**[Tessera](https://github.com/wonfeel/Tessera)** — 2D движок симуляций на C++/CUDA/OpenGL
+Чанковый мир: симулируются только живые чанки, состояние само расползается в соседние. Симуляция и рендер в отдельных потоках, собственный тред-пул, CUDA-бэкенд с shared-memory тайлингом (до 109× к CPU). Бэкенд симуляции — за одним интерфейсом: один код работает и на CPU, и на GPU без переписывания. ImGui-интерфейс, CI на GitHub Actions.
+
+На движке — три самостоятельные демки, каждая в своём репозитории (подтягивают Tessera через CMake `FetchContent`):
+
+**[HexLife](https://github.com/wonfeel/HexLife)** — игра «Жизнь» Конвея: загрузка `.rle`-паттернов, интерактивное рисование, запись GIF.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wonfeel/Tessera/main/assets/gun_eater.gif" height="220" alt="Gosper gun" />
+  <img src="https://raw.githubusercontent.com/wonfeel/HexLife/main/assets/gun_eater.gif" height="220" alt="Gosper gun" />
   &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/wonfeel/Tessera/main/assets/random_field.gif" height="220" alt="Random field spreading across chunks" />
+  <img src="https://raw.githubusercontent.com/wonfeel/HexLife/main/assets/random_field.gif" height="220" alt="Random field spreading across chunks" />
 </p>
+
+**[WaveLight](https://github.com/wonfeel/WaveLight)** — свет как волновое поле на гекс-сетке: хроматическая дисперсия R/G/B, рисуемая призма, направленный луч.
 
 *Дальше в планах — отдельный физический бэкенд за тем же интерфейсом: волновое уравнение (FDTD) и векторные поля.*
 
