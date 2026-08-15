@@ -3,5 +3,5 @@ C++ Developer: многопоточность, GPU-вычисления, гра�
 Миша
 
 mishabertyaev@gmail.com
-[@wanfik](https://t.me/wanfik
+[@wanfik](https://t.me/wanfik)
 
